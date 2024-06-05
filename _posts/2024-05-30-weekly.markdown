@@ -11,7 +11,7 @@ Developing a WordPress website for BCB or SB before a meeting at Othello Park in
 
 There are other potential needs that I noted in the meeting. One is around using Google to share notes and create surveys. Part of me wants to apply what GISCorps is doing for administrative tasks to this group and help apply some kind of governance early. However, we just need to meet people and get out into the community, so perhaps this is just me wanting to inject technology into everything. 
 
-The last thing I noted in this and the previous meeting is a place for mapping. Finding a simple, free way to quickly let them do some mapping and get into their website or do some analysis (e.g., canopy coverage within Brunswick for Bird City criteria) is vital. A lot of the standard GIS analysis can be done in QGIS, but I think either going custom or working with Felt/Google is worth investigating.
+The last thing I noted in this and the previous meeting is a place for mapping. Finding a simple, free way to quickly let them do some mapping or analysis (e.g., canopy coverage within Brunswick for Bird City criteria) is vital. A lot of the standard GIS analysis can be done in QGIS, but I think either going custom or working with Felt/Google is worth investigating.
 
 ***TODO***
 * Ask Sarah for a tour of the community garden and get my name down for chores. Maybe Joe will need a hand (or donations) for drip irrigation equipment.
