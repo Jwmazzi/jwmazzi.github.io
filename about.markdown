@@ -4,8 +4,23 @@ title: About
 permalink: /about/
 ---
 
-<div style="display: flex; align-items: center;">
-  <img src="{{ site.baseurl }}/assets/images/me.jpg" alt="Image Description" style="width: 200px; border: 1px black solid; margin-right: 20px; border-radius: 50%;"/>
+<style type="text/css">
+  .about-break {
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  .me {
+    margin-right: 25px;
+    border: 1px solid black;
+    border-radius: 50%
+  }
+</style>
+
+<div class="about-break" style="display: flex; align-items: center;">
+  <img class="me" width='200px' src="{{ site.baseurl }}/assets/images/me.jpg" alt="Image Description"/>
   <div>
     <h1>Jeffrey Scarmazzi</h1>
 
