@@ -13,6 +13,9 @@ categories: weekly
         font-style: italic;
         margin-top: 15px;
     }
+    .photo-block img {
+        width: 75%;
+    }
 </style>
 
 # Journaling IRL
