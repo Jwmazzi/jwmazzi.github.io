@@ -47,7 +47,7 @@ Below are some images from the latest insert that cycled out of my journal.
     <p>The tech idea in my mind for most of this journal was a mobile application to manage our gardening tasks. This general theme has been hijacked by the need to create an app for local sustainability initiatives.</p>
 </div>
 
-# Techno Blog
+# Technology Stuff
 My weekly goal from a technology perspective should either be focused on learning either WordPress or FOSS GIS to support sustainable teams here in Brunswick. Maybe have 2 goals on the technology front each week and just accept that certain things, like finishing Micah's book, will just have to get a new priority.
 
 This week was definitely all about learning WordPress. It was also about getting a project started for GISCorps, but I'll start covering that stuff in a separate category. I've landed on using Astra and starting with a very, very simple layout that works on mobile. 
