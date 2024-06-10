@@ -13,6 +13,9 @@ categories: weekly
         font-style: italic;
         margin-top: 15px;
     }
+    .photo-block img {
+        height: 500px;
+    }
 </style>
 
 # Journaling IRL
@@ -48,3 +51,9 @@ Below are some images from the latest insert that cycled out of my journal.
 My weekly goal from a technology perspective should either be focused on learning either WordPress or FOSS GIS to support sustainable teams here in Brunswick. Maybe have 2 goals on the technology front each week and just accept that certain things, like finishing Micah's book, will just have to get a new priority.
 
 This week was definitely all about learning WordPress. It was also about getting a project started for GISCorps, but I'll start covering that stuff in a separate category. I've landed on using Astra and starting with a very, very simple layout that works on mobile. 
+
+<div class="photo-block">
+    <h4>Bird City Baseline</h4>
+    <img class="me" src="{{ site.baseurl }}/assets\images\journal\WP_Baseline.jpg" alt="WordPress"/>
+    <p>Definitely going to need to add a few colors (e.g., a couple greens and a brown) and figure out the About & Contact pages. Maybe those can be collapsed into a single page?</p>
+</div>
