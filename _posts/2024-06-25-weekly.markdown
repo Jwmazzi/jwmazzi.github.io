@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "BC Pressed"
+date:   2024-06-30 00:00:00 -0400chr
+categories: weekly
+---
+
+<style>
+    .photo-block {
+        text-align: center
+    }
+    .photo-block p {
+        font-style: italic;
+        margin-top: 15px;
+    }
+    .photo-block img {
+        width: 75%;
+    }
+</style>
+
+# WordPress for Brunswick
+Learning WordPress and getting a basline out the door for Bird City Brunswick is taking more time than I expected. However, Megan and I finally got something decent enough to show to Sarah together.
+<div class="photo-block">
+    <h4>Bird City</h4>
+    <img class="me" src="{{ site.baseurl }}/assets\images\pressed\BaselineDesktop.jpg" alt="Joanna 404"/>
+    <p>TODO - Let's say something about this one.</p>
+</div>
+
+# Not a Designer
+In addition to getting WordPress under my belt, I need to pick up something like Canva to get flyers and other media out the door for events.
