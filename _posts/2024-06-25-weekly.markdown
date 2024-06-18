@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BC Pressed"
-date:   2024-06-30 00:00:00 -0400chr
+date:   2024-06-16 00:00:00 -0400chr
 categories: weekly
 ---
 
@@ -18,13 +18,15 @@ categories: weekly
     }
 </style>
 
-# WordPress for Brunswick
-Learning WordPress and getting a basline out the door for Bird City Brunswick is taking more time than I expected. However, Megan and I finally got something decent enough to show to Sarah together.
-<div class="photo-block">
-    <h4>Bird City</h4>
-    <img class="me" src="{{ site.baseurl }}/assets\images\pressed\BaselineDesktop.jpg" alt="Joanna 404"/>
-    <p>TODO - Let's say something about this one.</p>
-</div>
+# WordPress for Bird City Brunswick
+Learning WordPress and getting a baseline out the door for Bird City Brunswick is taking more time than I expected. However, Megan and I finally got something decent enough to show to Sarah. I sent an email to Eric Stuyck, a local photographer, and asked him for permission to use a couple photos for the landing page. No response after a couple days, but maybe I will bump into him again down by the towpath?
 
-# Not a Designer
-In addition to getting WordPress under my belt, I need to pick up something like Canva to get flyers and other media out the door for events.
+At this point, I've met with Sarah and Calvin to discuss our initial ideas for the website. We still need a domain name and will be using <a href="https://lilmappy.com" target="_blank">LilMappy</a> until we have another solution. Both Sarah and Calvin had good ideas for how we can create some conceptual hierarchy around various Categories or Tags to organize content. 
+
+<div class="photo-block">
+    <h4>Bird City Brunswick Baseline</h4>
+    <img style="border: 1px solid black" class="me" src="{{ site.baseurl }}/assets\images\pressed\BaselineDesktop.jpg" alt="Joanna 404"/>
+    <p>We landed on the default Twenty Twenty-Three Theme and it seems like a good place to start</p>
+    <img style="border: 1px solid black; width: 50%" class="me" src="{{ site.baseurl }}/assets\images\pressed\BaselineMobile.jpg" alt="Joanna 404"/>
+    <p>There is a lot of work to do, but the default mobile presentation is solid</p>
+</div>
