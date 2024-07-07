@@ -28,5 +28,5 @@ At this point, I've met with Sarah and Calvin to discuss our initial ideas for t
     <img style="border: 1px solid black" class="me" src="{{ site.baseurl }}/assets\images\pressed\BaselineDesktop.jpg" alt="Joanna 404"/>
     <p>We landed on the default Twenty Twenty-Three Theme and it seems like a good place to start</p>
     <img style="border: 1px solid black; width: 50%" class="me" src="{{ site.baseurl }}/assets\images\pressed\BaselineMobile.jpg" alt="Joanna 404"/>
-    <p>There is a lot of work to do, but the default mobile presentation is solid</p>
+    <p>There is a lot of work to do, but the default mobile presentation is enough to get started.</p>
 </div>
