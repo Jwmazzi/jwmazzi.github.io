@@ -5,19 +5,6 @@ date:   2024-06-09 00:00:00 -0400chr
 categories: weekly
 ---
 
-<style>
-    .photo-block {
-        text-align: center
-    }
-    .photo-block p {
-        font-style: italic;
-        margin-top: 15px;
-    }
-    .photo-block img {
-        width: 75%;
-    }
-</style>
-
 # Journaling IRL
 Jason, chatting over ice cream with the girls, said he is planning 3 separate journals. I've been doing doodles a bit more often, but not picking a dedicated time of the day like Jason is going to hold me back. We did have to shift out a book this week because Eliza got ahold of my journal the other day.
 

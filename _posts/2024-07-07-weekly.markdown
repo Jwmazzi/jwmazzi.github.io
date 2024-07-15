@@ -5,20 +5,6 @@ date:   2024-07-07 00:00:00 -0400chr
 categories: weekly
 ---
 
-<style>
-    .photo-block {
-        text-align: center
-    }
-    .photo-block p {
-        font-style: italic;
-        margin-top: 15px;
-    }
-    .photo-block img {
-        width: 75%;
-        border: 1px solid black;
-    }
-</style>
-
 # [Bird City Brunswick](https://birdcitybrunswick.org)
 We have a baseline for the [website](https://birdcitybrunswick.org) and Sarah has really jumped in with both feet. Our design/layout is about as basic as you can get, but this is fine if our primary goal is information dissemination. Getting people (other than Sarah) writing posts and creating events is the immediate focus. Next will be making the posts searchable over time and ensuring that our calendar is working as expected. I also need to schedule a regular meeting at the library to develop governance SOPs around the website.
 

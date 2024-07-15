@@ -5,19 +5,6 @@ date:   2024-06-25 00:00:00 -0400chr
 categories: weekly
 ---
 
-<style>
-    .photo-block {
-        text-align: center
-    }
-    .photo-block p {
-        font-style: italic;
-        margin-top: 15px;
-    }
-    .photo-block img {
-        width: 75%;
-    }
-</style>
-
 # WordPress for Bird City Brunswick
 Learning WordPress and getting a baseline out the door for Bird City Brunswick is taking more time than I expected. However, Megan and I finally got something decent enough to show to Sarah. I sent an email to Eric Stuyck, a local photographer, and asked him for permission to use a couple photos for the landing page. No response after a couple days, but maybe I will bump into him again down by the towpath?
 
