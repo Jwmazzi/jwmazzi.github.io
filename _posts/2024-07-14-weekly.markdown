@@ -19,9 +19,9 @@ Aside from the technical stuff, I got a chance to take Megan's new camera out to
 
 <div class="photo-block">
     <h4>Brunswick Community Garden</h4>
-    <img src="{{ site.baseurl }}/assets\images\2024_07_14\Garden_A.jpg" alt="BCB"/>
+    <img src="{{ site.baseurl }}/assets\images\2024_07_14\Garden_A.JPG" alt="BCB"/>
     <br/><br/>
-    <img src="{{ site.baseurl }}/assets\images\2024_07_14\Garden_B.jpg" alt="BCB"/>
+    <img src="{{ site.baseurl }}/assets\images\2024_07_14\Garden_B.JPG" alt="BCB"/>
     <p>Pulling weeds put me into that "Zen" place that is absolutely essential for sanity these days. </p>
 </div>
 
