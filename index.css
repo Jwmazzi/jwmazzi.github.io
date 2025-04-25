@@ -1,0 +1,112 @@
+/* Global */
+
+body {
+  background-color: #f6f2ec;
+}
+
+main {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Text */
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3em;
+  margin-top: .5em;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-style: italic;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1;
+}
+
+/* Navigation */
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5b4460;
+}
+
+header li {
+  display: inline;
+  float: left;
+}
+
+header li a {
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+header li a:hover {
+  background-color: #b0663b;
+}
+
+.right-nav {
+  float: right;
+}
+
+/* Page */
+
+/* .page-center {
+  margin: 0 auto;
+  width: 80%;
+} */
+
+/* Lists */
+
+.top-list ul {
+  list-style-type: none;
+}
+
+.top-list li {
+  margin: 10px 0 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.top-list li a {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.5em;
+  text-decoration: underline;
+  color: #21251f;
+}
+
+.top-list li a:hover {
+  color: #b0663b;
+}
+
+.top-list span {
+  margin-top: 6px;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+}
+
+/* About */
+
+.about-me {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.itsame {
+  margin-top: 25px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
