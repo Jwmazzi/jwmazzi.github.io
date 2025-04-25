@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="/">Localhost</a></li>
+            {%- for entry in collections.all | eleventyNavigation %}
+                <li class="right-nav">
+                    <a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
+                </li>
+            {%- endfor %}
+            </ul>
+        </header>
+        <main>
+            {{ content | safe }}
+        </main>
+
+        {# <footer class="page-center">
+            jeffreyscarmazzi@gmail.com
+        </footer> #}
+    </body>
+</html>
