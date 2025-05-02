@@ -11,7 +11,7 @@ main {
 
 main img  {
   border-radius: 10px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-bottom: 5px;
 }
 
@@ -104,12 +104,17 @@ header li a:hover {
   text-align: center;
 }
 
+
 .about img {
   margin-top: 25px;
   border-radius: 10px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
-/* .about h1 {
+.about h1 {
   margin: 0px 10px 0px 10px;
-} */
+}
+
+.about p {
+  margin: 20px;
+}
