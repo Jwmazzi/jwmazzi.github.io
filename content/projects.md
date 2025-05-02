@@ -1,6 +1,7 @@
 ---
 eleventyNavigation:
   key: Projects
+  order: 2
 
 layout: /layouts/root.njk
 ---
