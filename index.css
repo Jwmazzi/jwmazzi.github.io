@@ -97,9 +97,7 @@ header li a:hover {
 
 /* Posts */
 .post-main {
-  margin: auto;
-  width: 70%;
-  margin-top: 25px !important;
+  margin-top: 25px;
 }
 
 .post-main img {
@@ -109,18 +107,18 @@ header li a:hover {
   margin: auto;
 }
 
+.post-main h1 {
+  font-family: sans-serif;
+  font-size: 3em;
+  color: #5b4460;
+  margin-top: 75px;
+}
+
 .post-main h3 {
   font-family: sans-serif;
   font-size: 1em;
   font-style: italic;
   text-align: center;
-}
-
-.post-main h1 {
-  font-family: sans-serif;
-  font-size: 3em;
-  color: #5b4460;
-  margin-top: 75px !important;
 }
 
 .post-main p {
