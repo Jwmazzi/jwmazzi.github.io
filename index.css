@@ -6,7 +6,7 @@ body {
 
 main {
   margin: 0 auto;
-  width: 80%;
+  /* width: 80%; */
 }
 
 /* Navigation */
@@ -98,13 +98,14 @@ header li a:hover {
 /* Posts */
 .post-main {
   margin-top: 25px;
+  width: 60%;
+
 }
 
 .post-main img {
   border-radius: 10px;
-  /* border: 1px solid #5b4460; */
   display: block;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .post-main h1 {
