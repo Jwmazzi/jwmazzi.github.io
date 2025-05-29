@@ -106,6 +106,8 @@ header li a:hover {
   border-radius: 10px;
   display: block;
   margin: 0 auto;
+  height: 100%;
+  width: 100%;
 }
 
 .post-main h1 {
@@ -126,5 +128,6 @@ header li a:hover {
 .post-main p {
   font-family: sans-serif;
   font-size: 1.5em;
+  line-height: 1.25em;
   margin: 25px 0px 25px 0px;
 }
