@@ -1,23 +1,9 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/index.css">
-    </head>
-    <body>
-        <header>
-            <ul>
-                <li><a href="/">Localhost</a></li>
-            {%- for entry in collections.all | eleventyNavigation %}
-                <li class="right-nav">
-                    <a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
-                </li>
-            {%- endfor %}
-            </ul>
-        </header>
-        <main class="post-main">
-            {{ content | safe }}
-        </main>
+---
+layout: /layouts/root.njk
+---
 
-    </body>
-</html>
+<body>
+    <main class="posts">
+        {{ content | safe }}
+    </main> 
+</body>
