@@ -76,6 +76,7 @@ header li a:hover {
 
 .about {
   text-align: center;
+  width: 50%;
 }
 
 .about img {
@@ -87,52 +88,17 @@ header li a:hover {
   font-family: sans-serif;
   font-size: 3em;
   color: #5b4460;
+  margin-top: 15px;
 }
 
 .about p {
-  font-family: sans-serif;
-  font-size: 1em;
-  margin: 25px 0px 25px 0px;
-}
-
-/* Posts */
-.post-main {
-  margin-top: 25px;
-  width: 60%;
-
-}
-
-.post-main img {
-  border-radius: 10px;
-  display: block;
-  margin: 0 auto;
-  height: 100%;
-  width: 100%;
-}
-
-.post-main h1 {
-  font-family: sans-serif;
-  font-size: 3em;
-  color: #5b4460;
-  margin-top: 75px;
-}
-
-.post-main h3 {
-  font-family: sans-serif;
-  font-size: 1em;
-  font-style: italic;
-  font-weight: normal;
-  text-align: center;
-}
-
-.post-main p {
   font-family: sans-serif;
   font-size: 1.5em;
   line-height: 1.35em;
   margin: 25px 0px 25px 0px;
 }
 
-.post-main a {
+.about a {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.15em;
   line-height: 1.35em;
@@ -141,6 +107,56 @@ header li a:hover {
   color: #5b4460;
 }
 
-.post-main a:hover {
+.about a:hover {
+  color: #b0663b;
+}
+
+/* Posts */
+.posts {
+  margin-top: 25px;
+  width: 60%;
+
+}
+
+.posts img {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+.posts h1 {
+  font-family: sans-serif;
+  font-size: 3em;
+  color: #5b4460;
+  margin-top: 75px;
+}
+
+.posts h3 {
+  font-family: sans-serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+
+.posts p {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  margin: 25px 0px 25px 0px;
+}
+
+.posts a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.15em;
+  line-height: 1.35em;
+  font-style: italic;
+  text-decoration: underline;
+  color: #5b4460;
+}
+
+.posts a:hover {
   color: #b0663b;
 }
