@@ -19,19 +19,22 @@
             
 <body>
     <main class="posts">
-        <h1>Mapping with Wild Potomac</h1>
-<p>Bird City Brunswick is working with <a href="https://www.wildpotomac.org/">Wild Potomac</a> to win a grant that will fund tree plantings the city.</p>
-<p>Below are the overview maps I put together on Saturday morning. We will get these shopped up and included into the grant documentation. Publishing these via the Bird City Brunswick ArcGIS Online account may not work because of how it is currently licensed. Standing up infrastructure with GeoServer and using QGIS for stylig is the goal next I think.</p>
-<picture><source type="image/webp" srcset="/content/posts/wp-trees/P5hIUVfTtb-3507.webp 3507w"><img src="/content/posts/wp-trees/P5hIUVfTtb-3507.jpeg" alt="Equity" width="3507" height="2480"></picture>
+        <h1>Wild Potomac</h1>
+<p>Through Bird City Brunswick, I've been working with <a href="https://www.wildpotomac.org/">Wild Potomac</a> on a grant that will fund tree plantings across the city.</p>
+<p>Below are the overview maps I put together for the grant. They were built in QGIS and communicate the planting sites that are in or out of the various zones we were targeting in the grant.</p>
+<picture><source type="image/webp" srcset="/content/posts/wp-trees/OwLAS--i6x-3507.webp 3507w"><img src="/content/posts/wp-trees/OwLAS--i6x-3507.jpeg" alt="Site Plan" width="3507" height="2480"></picture>
+<h3>51 of the 60 Google Form responses were selected as potential planting sites. </h3>
 <br>
-<picture><source type="image/webp" srcset="/content/posts/wp-trees/nquNJuNOEU-3507.webp 3507w"><img src="/content/posts/wp-trees/nquNJuNOEU-3507.jpeg" alt="Equity" width="3507" height="2480"></picture>
+<picture><source type="image/webp" srcset="/content/posts/wp-trees/4yYFH0mRtS-3507.webp 3507w"><img src="/content/posts/wp-trees/4yYFH0mRtS-3507.jpeg" alt="Urban Underserved" width="3507" height="2480"></picture>
 <br>
-<picture><source type="image/webp" srcset="/content/posts/wp-trees/vE043GWBn5-3507.webp 3507w"><img src="/content/posts/wp-trees/vE043GWBn5-3507.jpeg" alt="Equity" width="3507" height="2480"></picture>
-<h1>FOSS4G At Home</h1>
-<p>Bird City has given me a stable stream of solid projects.
-Buidling a map for Springfest was good because it meant we had something to start from for this grant. We only need to demonstrate how the planting sites coincide with the areas identified by DNR. Getting quick exports for review (above) was easy with the layout tools in QGIS. I suspect that I will not use Inkscape for this, but will instead work on some basic Python tooling with geopandas. I'm still trying to figure out how I want to work with PostGIS/GeoServer locally, so for this project, since it was relatively simple, I just did my processing in QGIS and saved the outputs to a GeoPackage. Importing my data into PostgreSQL, running via Docker, and doing the calculations was my approach for doing the canopy analysis.</p>
+<picture><source type="image/webp" srcset="/content/posts/wp-trees/kshrH9pmPb-3507.webp 3507w"><img src="/content/posts/wp-trees/kshrH9pmPb-3507.jpeg" alt="Tree Equty" width="3507" height="2480"></picture>
+<br>
+<picture><source type="image/webp" srcset="/content/posts/wp-trees/lzmkDEA-kL-3507.webp 3507w"><img src="/content/posts/wp-trees/lzmkDEA-kL-3507.jpeg" alt="MDOT Distances" width="3507" height="2480"></picture>
+<h1>FOSS4G</h1>
+<p>This is the second project in the past couple months where I've really spent time figuring out my baseline <a href="https://wiki.osgeo.org/wiki/FOSS4G">FOSS4G</a> tools.</p>
+<p>Having built a print map for Springfest, I wasn't starting from scratch for this grant with Wild Potomac. QGIS continues to be excellent for quickly generating maps. This time I didn't use Inkscape and stuck with exporting simple layouts from QGIS. I'm still in the process of figuring out how much I want to use PostGIS through Docker in my work. Since this project was relatively simple, working out of a single GeoPackage and doing a mix of manual work in QGIS and writing some Python code was good enough. Figuring out how much of the map production pipeline I can automate in QGIS is likely my next homework.</p>
 <h1>Google Forms</h1>
-<p>People love Google Forms. It might be worth talking about basic geocoding problems and why something like S123 is so useful in this space.</p>
+<p>People love Google Forms. It's free and simple to build something quickly. However, dealing with the free-form text that was used for the planting sites (i.e., home addresses), meant some extra cleanup before we could make maps. For this project, I just wrote a simple script that geocoded (via the Google API) the address field. Using something like Survey 123 would have simplified my life a bit, but the associated cost is prohibitive. Figuring out how Google Forms, or anotherfree/cheap equivalent, could have the spatial piece as a first-class attribute by default would be excellent.</p>
 
     </main> 
 </body>
