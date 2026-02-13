@@ -6,7 +6,7 @@ eleventyNavigation:
 layout: /layouts/root.njk
 ---
 
-<div class="top-list">
+<div class="projects-container">
   <ul>
     <li>
       <a href="https://birdcitybrunswick.org">Bird City Brunswick</a>

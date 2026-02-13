@@ -7,7 +7,8 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({
     "./public/": "/"
-  })
+  });
+
 }
 
 export const config = {
