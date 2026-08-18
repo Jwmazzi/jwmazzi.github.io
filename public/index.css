@@ -7,10 +7,31 @@
 
   --font-primary: "Courier New", Courier, monospace;
   --font-secondary: "Open Sans", sans-serif;
+
+  /* Type scale (all rem, relative to the 16px root only - no compounding) */
+  --text-sm: 1rem;      /* 16px - image captions */
+  --text-base: 1.25rem; /* 20px - list descriptions */
+  --text-md: 1.5rem;    /* 24px - nav links, body copy */
+  --text-lg: 2rem;      /* 32px - index post titles */
+  --text-xl: 2.25rem;   /* 36px - project titles */
+  --text-2xl: 2.5rem;   /* 40px - index column headings */
+  --text-3xl: 3rem;     /* 48px - page titles (About, Posts) */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
 }
 
 body {
+  margin: 0;
   background-color: var(--color-white);
+  line-height: 1.5;
 }
 
 main {
@@ -22,8 +43,12 @@ main {
   border: 2px var(--color-purple) solid;
 }
 
-.pardus p {
-  color: rgb(27, 67, 27);
+/* Shared link hover state (Index, About, Posts, Projects) */
+.index-container li a:hover,
+.projects-container li a:hover,
+.about a:hover,
+.posts a:hover {
+  color: var(--color-orange);
 }
 
 /* Navigation */
@@ -39,17 +64,16 @@ header ul {
 header li {
   display: inline;
   float: left;
-  font-size: 1.5em;
 }
 
 header li a {
-  font-family: "Courier New", Courier, monospace;
+  font-family: var(--font-primary);
+  font-size: var(--text-md);
   display: block;
   color: white;
   text-align: center;
   padding: 25px;
   text-decoration: none;
-  font-size: 1em;
 }
 
 header li a:hover {
@@ -63,59 +87,37 @@ header li a:hover {
 /* Index */
 
 .index-container {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    text-align: center;;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  text-align: center;
 }
 
 .index-column {
   flex: 1;
   padding: 20px;
-  margin: 0 25px 0 25px;
-}
-
-@media (max-width: 800px) {
-  .index-container {
-    flex-direction: column;
-  }
+  margin: 0 25px;
 }
 
 .index-container h1 {
-  font-size: 2.5em;
+  font-size: var(--text-2xl);
   font-weight: lighter;
   color: var(--color-purple);
   font-family: var(--font-primary);
-  margin-bottom: 2em;
+  margin-bottom: 3.75rem;
 }
 
 .index-container ul {
   list-style-type: none;
-}
-
-.index-container li {
-  font-size: 1.5em;
-  margin: 10px 0 30px;
-  padding: 10px;
-  text-align: center;
+  padding: 0;
 }
 
 .index-container li a {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.5em;
-  text-decoration: underline;
-  color: var(--color-black);
-}
-
-.index-container li a:hover {
-  color: var(--color-orange);
+  font-size: var(--text-lg);
 }
 
 .index-container span {
-  font-size: .75em;
-  margin-top: 6px;
-  font-family: var(--font-secondary);
-  display: block;
+  font-size: var(--text-base);
 }
 
 /* About */
@@ -133,111 +135,146 @@ header li a:hover {
 .about h1 {
   font-family: var(--font-primary);
   font-weight: lighter;
-  font-size: 3em;
+  font-size: var(--text-3xl);
   color: var(--color-black);
   margin-top: 15px;
 }
 
-.about p {
-  font-family: var(--font-secondary);
-  font-size: 1.5em;
-  line-height: 1.35em;
-  margin: 25px 0px 25px 0px;
-}
-
-.about a {
-  font-family: var(--font-primary);
-  font-size: 1.15em;
-  line-height: 1.35em;
-  font-style: italic;
-  text-decoration: underline;
-  color: var(--color-purple);
-}
-
-.about a:hover {
-  color: var(--color-orange);
-}
-
 /* Posts */
+
 .posts {
   margin-top: 25px;
   width: 60%;
-
 }
 
 .posts img {
   border-radius: 10px;
   display: block;
   margin: 0 auto;
-  height: 100%;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .posts h1 {
-  font-family: sans-serif;
-  font-size: 3em;
+  font-family: var(--font-secondary);
+  font-size: var(--text-3xl);
   color: var(--color-purple);
   margin-top: 45px;
 }
 
 .posts h3 {
-  font-family: sans-serif;
-  font-size: 1em;
+  font-family: var(--font-secondary);
+  font-size: var(--text-sm);
   font-style: italic;
   font-weight: normal;
   text-align: center;
 }
 
+/* Shared prose styles (About + Posts) */
+
+.about p,
 .posts p {
-  font-family: sans-serif;
-  font-size: 1.5em;
-  line-height: 1.35em;
-  margin: 25px 0px 25px 0px;
+  font-family: var(--font-secondary);
+  font-size: var(--text-md);
+  line-height: 1.35;
+  margin: 25px 0;
 }
 
+.about a,
 .posts a {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1.15em;
-  line-height: 1.35em;
+  font-family: var(--font-primary);
+  font-size: 1.15rem;
+  line-height: 1.35;
   font-style: italic;
   text-decoration: underline;
   color: var(--color-purple);
 }
 
-.posts a:hover {
-  color: var(--color-orange);
-}
-
 /* Projects */
+
 .projects-container {
-  padding-top: 2em;
+  padding-top: 2rem;
   text-align: center;
 }
 
 .projects-container ul {
   list-style-type: none;
+  padding: 0;
 }
 
+.projects-container li a {
+  font-size: var(--text-xl);
+}
+
+.projects-container span {
+  font-size: var(--text-base);
+}
+
+/* Shared list styles (Index + Projects) */
+
+.index-container li,
 .projects-container li {
   margin: 10px 0 30px;
   padding: 10px;
   text-align: center;
 }
 
+.index-container li a,
 .projects-container li a {
   font-family: var(--font-primary);
-  font-size: 2.25em;
   text-decoration: underline;
   color: var(--color-black);
 }
 
-.projects-container li a:hover {
-  color: var(--color-orange);
-}
-
+.index-container span,
 .projects-container span {
-  font-size: 1.25em;
   margin-top: 6px;
   font-family: var(--font-secondary);
   display: block;
+}
+
+/* Responsive */
+
+@media (max-width: 800px) {
+  .index-container {
+    flex-direction: column;
+  }
+
+  .index-column {
+    margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  main,
+  .about,
+  .posts {
+    width: 90%;
+  }
+
+  header li {
+    display: block;
+    float: none;
+  }
+
+  header li a {
+    padding: 10px 25px;
+  }
+
+  .right-nav {
+    float: none;
+  }
+
+  .index-column {
+    padding: 10px;
+  }
+
+  .index-container h1 {
+    margin-bottom: 1.875rem;
+  }
+
+  .index-container li {
+    margin: 0 0 35px;
+    padding: 0;
+  }
 }

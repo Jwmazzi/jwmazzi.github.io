@@ -9,6 +9,11 @@ export default function (eleventyConfig) {
     "./public/": "/"
   });
 
+  eleventyConfig.addGlobalData("indexCategories", [
+    { tag: "development", heading: "Convivial Development" },
+    { tag: "games", heading: "Currently Playing" },
+  ]);
+
 }
 
 export const config = {
