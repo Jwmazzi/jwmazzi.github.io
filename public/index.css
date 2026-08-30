@@ -130,6 +130,8 @@ header li a:hover {
 .about img {
   margin-top: 25px;
   border-radius: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .about h1 {
