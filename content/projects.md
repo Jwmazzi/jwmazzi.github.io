@@ -9,6 +9,10 @@ layout: /layouts/root.njk
 <div class="projects-container">
   <ul>
     <li>
+      <a href="https://wildpotomac.org">Wild Potomac</a>
+      <span>Protecting the Potomac Watershed</span>
+    </li>
+    <li>
       <a href="https://birdcitybrunswick.org">Bird City Brunswick</a>
       <span>Communication tools for local sustainability activists</span>
     </li>
