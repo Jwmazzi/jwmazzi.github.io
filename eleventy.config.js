@@ -6,14 +6,13 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPassthroughCopy({
-    "./public/": "/"
+    "./public/": "/",
   });
 
   eleventyConfig.addGlobalData("indexCategories", [
-    { tag: "development", heading: "Convivial Development" },
-    { tag: "games", heading: "Currently Playing" },
+    { tag: "development", heading: "Development" },
+    { tag: "games", heading: "Games" },
   ]);
-
 }
 
 export const config = {
