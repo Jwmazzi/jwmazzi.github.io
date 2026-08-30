@@ -9,13 +9,13 @@
   --font-secondary: "Open Sans", sans-serif;
 
   /* Type scale (all rem, relative to the 16px root only - no compounding) */
-  --text-sm: 1rem;      /* 16px - image captions */
+  --text-sm: 1rem; /* 16px - image captions */
   --text-base: 1.25rem; /* 20px - list descriptions */
-  --text-md: 1.5rem;    /* 24px - nav links, body copy */
-  --text-lg: 2rem;      /* 32px - index post titles */
-  --text-xl: 2.25rem;   /* 36px - project titles */
-  --text-2xl: 2.5rem;   /* 40px - index column headings */
-  --text-3xl: 3rem;     /* 48px - page titles (About, Posts) */
+  --text-md: 1.5rem; /* 24px - nav links, body copy */
+  --text-lg: 2rem; /* 32px - index post titles */
+  --text-xl: 2.25rem; /* 36px - project titles */
+  --text-2xl: 2.5rem; /* 40px - index column headings */
+  --text-3xl: 3rem; /* 48px - page titles (About, Posts) */
 }
 
 *,
@@ -164,7 +164,7 @@ header li a:hover {
 
 .posts h3 {
   font-family: var(--font-secondary);
-  font-size: var(--text-sm);
+  font-size: 1.6rem;
   font-style: italic;
   font-weight: normal;
   text-align: center;
@@ -183,7 +183,7 @@ header li a:hover {
 .about a,
 .posts a {
   font-family: var(--font-primary);
-  font-size: 1.15rem;
+  font-size: 1.6rem;
   line-height: 1.35;
   font-style: italic;
   text-decoration: underline;
