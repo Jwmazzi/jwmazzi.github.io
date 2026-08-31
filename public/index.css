@@ -162,6 +162,7 @@ header li a:hover {
   font-size: var(--text-3xl);
   color: var(--color-purple);
   margin-top: 45px;
+  text-align: center;
 }
 
 .posts h3 {
@@ -248,10 +249,19 @@ header li a:hover {
 }
 
 @media (max-width: 600px) {
+  :root {
+    --text-base: 1rem;
+  }
+
   main,
   .about,
   .posts {
     width: 90%;
+  }
+
+  .index-container span,
+  .projects-container span {
+    margin-top: 2px;
   }
 
   header li {
